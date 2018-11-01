@@ -1,0 +1,5 @@
+toring Credentials in Config
+
+The AWS CLI will also read credentials from the config file. If you want to keep all of your profile settings in a single file, you can. If there are ever credentials in both locations for a profile (say you used aws configure to update the profile's keys), the keys in the credentials file will take precedence.
+
+If you use one of the SDKs in addition to the AWS CLI, you may notice additional warnings if credentials are not stored in their own file. 
